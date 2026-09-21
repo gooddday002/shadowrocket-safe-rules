@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "global": {
+    "timeout_seconds": 30,
+    "max_bytes_per_source": 8000000,
+    "max_line_length": 8192,
+    "max_duplicate_pct": 1,
+    "change_guard": {
+      "min_previous_rules": 25,
+      "max_drop_pct": 35,
+      "max_growth_pct": 80
+    },
+    "allowed_hosts": [
+      "raw.githubusercontent.com"
+    ],
+    "allowed_path_prefixes": [
+      "/blackmatrix7/ios_rule_script/"
+    ],
+    "require_no_resolve_for_ip": true
+  },
+  "protected_proxy_domains": [
+    "claude.ai",
+    "anthropic.com",
+    "openai.com",
+    "chatgpt.com",
+    "google.com",
+    "youtube.com",
+    "telegram.org",
+    "x.com",
+    "twitter.com",
+    "tiktok.com",
+    "netflix.com"
+  ],
+  "sources": [
+    {
+      "name": "Lan",
+      "output": "rules/blackmatrix7/Lan/Lan.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list",
+      "policy": "DIRECT",
+      "format": "rule_set",
+      "min_rules": 80
+    },
+    {
+      "name": "WeChat",
+      "output": "rules/blackmatrix7/WeChat/WeChat.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WeChat/WeChat.list",
+      "policy": "DIRECT",
+      "format": "rule_set",
+      "min_rules": 15
+    },
+    {
+      "name": "MeiTuan",
+      "output": "rules/blackmatrix7/MeiTuan/MeiTuan.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/MeiTuan/MeiTuan.list",
+      "policy": "DIRECT",
+      "format": "rule_set",
+      "min_rules": 3
+    },
+    {
+      "name": "AliPay",
+      "output": "rules/blackmatrix7/AliPay/AliPay.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AliPay/AliPay.list",
+      "policy": "DIRECT",
+      "format": "rule_set",
+      "min_rules": 10
+    },
+    {
+      "name": "Claude",
+      "output": "rules/blackmatrix7/Claude/Claude.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Claude/Claude.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 2
+    },
+    {
+      "name": "OpenAI",
+      "output": "rules/blackmatrix7/OpenAI/OpenAI.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 15
+    },
+    {
+      "name": "Gemini",
+      "output": "rules/blackmatrix7/Gemini/Gemini.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Gemini/Gemini.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 5
+    },
+    {
+      "name": "Copilot",
+      "output": "rules/blackmatrix7/Copilot/Copilot.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Copilot/Copilot.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 20
+    },
+    {
+      "name": "AppleNews",
+      "output": "rules/blackmatrix7/AppleNews/AppleNews.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 1
+    },
+    {
+      "name": "iCloudPrivateRelay",
+      "output": "rules/blackmatrix7/iCloudPrivateRelay/iCloudPrivateRelay.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/iCloudPrivateRelay/iCloudPrivateRelay.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 2
+    },
+    {
+      "name": "Google",
+      "output": "rules/blackmatrix7/Google/Google.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Google/Google.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 300
+    },
+    {
+      "name": "YouTube",
+      "output": "rules/blackmatrix7/YouTube/YouTube.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 80
+    },
+    {
+      "name": "Telegram",
+      "output": "rules/blackmatrix7/Telegram/Telegram.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Telegram/Telegram.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 15
+    },
+    {
+      "name": "Twitter",
+      "output": "rules/blackmatrix7/Twitter/Twitter.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Twitter/Twitter.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 15
+    },
+    {
+      "name": "Facebook",
+      "output": "rules/blackmatrix7/Facebook/Facebook.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Facebook/Facebook.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 200
+    },
+    {
+      "name": "Instagram",
+      "output": "rules/blackmatrix7/Instagram/Instagram.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Instagram/Instagram.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 2
+    },
+    {
+      "name": "TikTok",
+      "output": "rules/blackmatrix7/TikTok/TikTok.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 15
+    },
+    {
+      "name": "Netflix",
+      "output": "rules/blackmatrix7/Netflix/Netflix.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Netflix/Netflix.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 500
+    },
+    {
+      "name": "Disney",
+      "output": "rules/blackmatrix7/Disney/Disney.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Disney/Disney.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 70
+    },
+    {
+      "name": "HBO",
+      "output": "rules/blackmatrix7/HBO/HBO.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HBO/HBO.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 20
+    },
+    {
+      "name": "Spotify",
+      "output": "rules/blackmatrix7/Spotify/Spotify.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Spotify/Spotify.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 15
+    },
+    {
+      "name": "GlobalMedia",
+      "output": "rules/blackmatrix7/GlobalMedia/GlobalMedia.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 500
+    },
+    {
+      "name": "GlobalMedia_Domain",
+      "output": "rules/blackmatrix7/GlobalMedia/GlobalMedia_Domain.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia_Domain.list",
+      "policy": "PROXY",
+      "format": "domain_set",
+      "min_rules": 600
+    },
+    {
+      "name": "Proxy",
+      "output": "rules/blackmatrix7/Proxy/Proxy.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy.list",
+      "policy": "PROXY",
+      "format": "rule_set",
+      "min_rules": 60
+    },
+    {
+      "name": "Proxy_Domain",
+      "output": "rules/blackmatrix7/Proxy/Proxy_Domain.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy_Domain.list",
+      "policy": "PROXY",
+      "format": "domain_set",
+      "min_rules": 3000
+    },
+    {
+      "name": "ChinaMaxNoIP",
+      "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "policy": "DIRECT",
+      "format": "rule_set",
+      "min_rules": 60
+    },
+    {
+      "name": "ChinaMaxNoIP_Domain",
+      "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
+      "policy": "DIRECT",
+      "format": "domain_set",
+      "min_rules": 50000
+    }
+  ]
+}
