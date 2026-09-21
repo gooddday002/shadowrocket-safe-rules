@@ -1,0 +1,295 @@
+{
+  "approved_at": "2026-09-21T05:40:53+00:00",
+  "conflicts": [
+    "suffix:265.com",
+    "suffix:2mdn-cn.net",
+    "suffix:admob-cn.com",
+    "suffix:app-analytics-services.com",
+    "suffix:app-measurement-cn.com",
+    "suffix:app-measurement.com",
+    "suffix:apps5.oingo.com",
+    "suffix:beacons.gvt2.com",
+    "suffix:beacons2.gvt2.com",
+    "suffix:beacons3.gvt2.com",
+    "suffix:biliintl.com",
+    "suffix:cdn.angruo.com",
+    "suffix:clickserve.cc-dt.com",
+    "suffix:dartsearch-cn.net",
+    "suffix:doubleclick-cn.net",
+    "suffix:doubleclick.net",
+    "suffix:gonglchuangl.net",
+    "suffix:gongyichuangyi.net",
+    "suffix:gstatic-cn.com",
+    "suffix:gvt2-cn.com",
+    "suffix:himalaya.com",
+    "suffix:hiwifi.com",
+    "suffix:iflix.com",
+    "suffix:iq.com",
+    "suffix:joox.com",
+    "suffix:prod-controlbe.floonet.goog",
+    "suffix:prod-databe.floonet.goog",
+    "suffix:prod.databe.floonet.goog",
+    "suffix:qiao-cn.com",
+    "suffix:recaptcha-cn.net",
+    "suffix:recaptcha.net",
+    "suffix:redirector.gcpcdn.gvt1.com",
+    "suffix:redirector.gvt1.com",
+    "suffix:redirector.offline-maps.gvt1.com",
+    "suffix:redirector.snap.gvt1.com",
+    "suffix:rthklive2-lh.akamaihd.net",
+    "suffix:staging-controlbe.floonet.goog",
+    "suffix:staging-databe.floonet.goog",
+    "suffix:staging.databe.floonet.goog",
+    "suffix:wetv.vip",
+    "suffix:wetvinfo.com",
+    "suffix:www.destinationurl.com",
+    "suffix:www.pxcc.com"
+  ],
+  "sources": {
+    "AliPay": {
+      "count": 21,
+      "format": "rule_set",
+      "name": "AliPay",
+      "output": "rules/blackmatrix7/AliPay/AliPay.list",
+      "policy": "DIRECT",
+      "sha256": "7b220f98eb4b21f77f874ed8c0079526f6e98f500814deda09d79a9e8d5d4dc5",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AliPay/AliPay.list"
+    },
+    "AppleNews": {
+      "count": 2,
+      "format": "rule_set",
+      "name": "AppleNews",
+      "output": "rules/blackmatrix7/AppleNews/AppleNews.list",
+      "policy": "PROXY",
+      "sha256": "2ebd35c43a58cc28ce4d8534f9ff545ce95869a0c44e5f3412aef30e136de486",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list"
+    },
+    "ChinaMaxNoIP": {
+      "count": 125,
+      "format": "rule_set",
+      "name": "ChinaMaxNoIP",
+      "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
+      "policy": "DIRECT",
+      "sha256": "1c0b708d9d1dacf09f78a73f0bbe9a89a4074debde75906ff86757f8cfe7bc52",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
+    },
+    "ChinaMaxNoIP_Domain": {
+      "count": 110945,
+      "format": "domain_set",
+      "name": "ChinaMaxNoIP_Domain",
+      "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
+      "policy": "DIRECT",
+      "sha256": "eab28dcd79b09af738d5b65740e8dd3642255236d8a5690d8c1ba687f54a30dd",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
+    },
+    "Claude": {
+      "count": 3,
+      "format": "rule_set",
+      "name": "Claude",
+      "output": "rules/blackmatrix7/Claude/Claude.list",
+      "policy": "PROXY",
+      "sha256": "e22906098a08537bca78fe642e8dcf401700595c436d131bfdbb9f446c58e19b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Claude/Claude.list"
+    },
+    "Copilot": {
+      "count": 51,
+      "format": "rule_set",
+      "name": "Copilot",
+      "output": "rules/blackmatrix7/Copilot/Copilot.list",
+      "policy": "PROXY",
+      "sha256": "bbe6a1043e2cc318aaa433c043e22328254260dfa582d69baaa123ba0a429837",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Copilot/Copilot.list"
+    },
+    "Disney": {
+      "count": 173,
+      "format": "rule_set",
+      "name": "Disney",
+      "output": "rules/blackmatrix7/Disney/Disney.list",
+      "policy": "PROXY",
+      "sha256": "851646ffda40afd75f50194bda1eed3e270187a39ed220e333d54aa84f29729e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Disney/Disney.list"
+    },
+    "Facebook": {
+      "count": 570,
+      "format": "rule_set",
+      "name": "Facebook",
+      "output": "rules/blackmatrix7/Facebook/Facebook.list",
+      "policy": "PROXY",
+      "sha256": "02969a9cf7cf0ec10d8266cab49ca31eaad71f852691eaf28a23c76b235d95bc",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Facebook/Facebook.list"
+    },
+    "Gemini": {
+      "count": 13,
+      "format": "rule_set",
+      "name": "Gemini",
+      "output": "rules/blackmatrix7/Gemini/Gemini.list",
+      "policy": "PROXY",
+      "sha256": "605702efe5aec5edb07d1c03174a10157bdd2e9dc4e67fa01e7ad3bd80bd4633",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Gemini/Gemini.list"
+    },
+    "GlobalMedia": {
+      "count": 1021,
+      "format": "rule_set",
+      "name": "GlobalMedia",
+      "output": "rules/blackmatrix7/GlobalMedia/GlobalMedia.list",
+      "policy": "PROXY",
+      "sha256": "b14d04fd1badc13830dfb01cc6f8df27f4b750a054c098af7246d612c2996ed9",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia.list"
+    },
+    "GlobalMedia_Domain": {
+      "count": 1311,
+      "format": "domain_set",
+      "name": "GlobalMedia_Domain",
+      "output": "rules/blackmatrix7/GlobalMedia/GlobalMedia_Domain.list",
+      "policy": "PROXY",
+      "sha256": "c3f867d4a594ee4e025f7829e2cccd6438a5805aad4e984ddb2790e4b7aa256e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia_Domain.list"
+    },
+    "Google": {
+      "count": 698,
+      "format": "rule_set",
+      "name": "Google",
+      "output": "rules/blackmatrix7/Google/Google.list",
+      "policy": "PROXY",
+      "sha256": "1bfbf77041fda8277c0e76b5dbb9973a7abcf219a9e02ba03f51c7045ee557e1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Google/Google.list"
+    },
+    "HBO": {
+      "count": 49,
+      "format": "rule_set",
+      "name": "HBO",
+      "output": "rules/blackmatrix7/HBO/HBO.list",
+      "policy": "PROXY",
+      "sha256": "c6482a681cda4a619a76343d62adbcfbfdccf8050e970469a07a6820cc1a5b8e",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/HBO/HBO.list"
+    },
+    "Instagram": {
+      "count": 4,
+      "format": "rule_set",
+      "name": "Instagram",
+      "output": "rules/blackmatrix7/Instagram/Instagram.list",
+      "policy": "PROXY",
+      "sha256": "0d97aa6e4a5a0993f8bb51926c5b45340f6c846d632a75b1dd76ff21ef6e844c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Instagram/Instagram.list"
+    },
+    "Lan": {
+      "count": 140,
+      "format": "rule_set",
+      "name": "Lan",
+      "output": "rules/blackmatrix7/Lan/Lan.list",
+      "policy": "DIRECT",
+      "sha256": "1287e092eb99dd9dbfcb480b0af712d9c84efb4ed62dbeb8e477c59fb265c386",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list"
+    },
+    "MeiTuan": {
+      "count": 7,
+      "format": "rule_set",
+      "name": "MeiTuan",
+      "output": "rules/blackmatrix7/MeiTuan/MeiTuan.list",
+      "policy": "DIRECT",
+      "sha256": "6abcbfd2fcf6c66b14750242936b30cebf34fa074bb34676074b1a566a61fb50",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/MeiTuan/MeiTuan.list"
+    },
+    "Netflix": {
+      "count": 1157,
+      "format": "rule_set",
+      "name": "Netflix",
+      "output": "rules/blackmatrix7/Netflix/Netflix.list",
+      "policy": "PROXY",
+      "sha256": "6c0043676e2a34c8ac18cf67149732f5a751897ba840e4b614294f9d04de79f8",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Netflix/Netflix.list"
+    },
+    "OpenAI": {
+      "count": 35,
+      "format": "rule_set",
+      "name": "OpenAI",
+      "output": "rules/blackmatrix7/OpenAI/OpenAI.list",
+      "policy": "PROXY",
+      "sha256": "413c11ed079810aab35b7776fc54c53a9575eb1e6abffa7cf541b3c7e50d9bd8",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/OpenAI/OpenAI.list"
+    },
+    "Proxy": {
+      "count": 131,
+      "format": "rule_set",
+      "name": "Proxy",
+      "output": "rules/blackmatrix7/Proxy/Proxy.list",
+      "policy": "PROXY",
+      "sha256": "33a6361c81768e13f64eba19d4e291804c92767f407aa2ec94014b08ad234f24",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy.list"
+    },
+    "Proxy_Domain": {
+      "count": 6793,
+      "format": "domain_set",
+      "name": "Proxy_Domain",
+      "output": "rules/blackmatrix7/Proxy/Proxy_Domain.list",
+      "policy": "PROXY",
+      "sha256": "06a22d3a4c88c8375a54f8ea8bcd17c947ecc6786044a0758acc4d1594e654e9",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy_Domain.list"
+    },
+    "Spotify": {
+      "count": 30,
+      "format": "rule_set",
+      "name": "Spotify",
+      "output": "rules/blackmatrix7/Spotify/Spotify.list",
+      "policy": "PROXY",
+      "sha256": "38ec3e72e9bf0a344c0fcff75abc348fae9cbc22d052913369040630bcc545f6",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Spotify/Spotify.list"
+    },
+    "Telegram": {
+      "count": 40,
+      "format": "rule_set",
+      "name": "Telegram",
+      "output": "rules/blackmatrix7/Telegram/Telegram.list",
+      "policy": "PROXY",
+      "sha256": "43a22d2da5cd88139819a9f33caff68a19ccf51d1e2282d62175f6365127d3dd",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Telegram/Telegram.list"
+    },
+    "TikTok": {
+      "count": 32,
+      "format": "rule_set",
+      "name": "TikTok",
+      "output": "rules/blackmatrix7/TikTok/TikTok.list",
+      "policy": "PROXY",
+      "sha256": "672a4bf5b8bfbc800a57ca76ca1014ab2dd993ce1debad240e7be92239e07338",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list"
+    },
+    "Twitter": {
+      "count": 33,
+      "format": "rule_set",
+      "name": "Twitter",
+      "output": "rules/blackmatrix7/Twitter/Twitter.list",
+      "policy": "PROXY",
+      "sha256": "371a1ead914bfa4ff5ff4ca338111d6e088517cf4792dd0bd43448b9331d1eb8",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Twitter/Twitter.list"
+    },
+    "WeChat": {
+      "count": 33,
+      "format": "rule_set",
+      "name": "WeChat",
+      "output": "rules/blackmatrix7/WeChat/WeChat.list",
+      "policy": "DIRECT",
+      "sha256": "0f4c3c2d94ca45e43a95e21e3a54e68b5bbe8bced36ef40433a915f7ca60e0e0",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/WeChat/WeChat.list"
+    },
+    "YouTube": {
+      "count": 190,
+      "format": "rule_set",
+      "name": "YouTube",
+      "output": "rules/blackmatrix7/YouTube/YouTube.list",
+      "policy": "PROXY",
+      "sha256": "121e30910b3aa5450d12c3d99538022a030787e834ed5168f28128226754f671",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/YouTube/YouTube.list"
+    },
+    "iCloudPrivateRelay": {
+      "count": 6,
+      "format": "rule_set",
+      "name": "iCloudPrivateRelay",
+      "output": "rules/blackmatrix7/iCloudPrivateRelay/iCloudPrivateRelay.list",
+      "policy": "PROXY",
+      "sha256": "bf918251648db75d5218ce67d009fbcf3de10dd6a74f596b67dfa869218bd494",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/iCloudPrivateRelay/iCloudPrivateRelay.list"
+    }
+  },
+  "total_rules": 123613,
+  "version": 1
+}
