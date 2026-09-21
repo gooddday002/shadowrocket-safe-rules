@@ -1,0 +1,67 @@
+name: Validate and publish Shadowrocket rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "validator.py"
+      - "sources.json"
+      - "tests/**"
+      - ".github/workflows/update-rules.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shadowrocket-safe-rules-publisher
+  cancel-in-progress: false
+
+jobs:
+  validate-and-publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Show Python version
+        run: python3 --version
+
+      - name: Run validator unit and regression tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Download and validate all upstream rules
+        shell: bash
+        run: |
+          set +e
+          python3 validator.py             --config sources.json             --repo-root .             --report /tmp/validation-report.md
+          rc=$?
+
+          if [ -f /tmp/validation-report.md ]; then
+            cat /tmp/validation-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          exit "$rc"
+
+      - name: Publish only validated changes
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- rules state reports)" ]; then
+            echo "No validated upstream changes to publish."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add rules state reports
+          git commit -m "chore(rules): publish validated upstream snapshot"
+          git push
