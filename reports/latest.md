@@ -1,8 +1,8 @@
 # Shadowrocket Safe Rules — PASS
 
-- Time (UTC): `2026-09-25T08:54:49+00:00`
+- Time (UTC): `2026-09-26T08:41:11+00:00`
 - Sources checked: **27**
-- Total active rules: **123,625**
+- Total active rules: **123,868**
 - New DIRECT/PROXY exact conflicts: **0**
 - Existing exact conflicts: **43**
 
@@ -31,12 +31,12 @@
 | Disney | PROXY | 173 | `851646ffda40afd7…` |
 | HBO | PROXY | 49 | `c6482a681cda4a61…` |
 | Spotify | PROXY | 30 | `38ec3e72e9bf0a34…` |
-| GlobalMedia | PROXY | 1,021 | `b14d04fd1badc138…` |
+| GlobalMedia | PROXY | 1,021 | `041c6235b0f3d3d6…` |
 | GlobalMedia_Domain | PROXY | 1,311 | `c3f867d4a594ee4e…` |
 | Proxy | PROXY | 131 | `33a6361c81768e13…` |
 | Proxy_Domain | PROXY | 6,795 | `93379180bd6b975d…` |
-| ChinaMaxNoIP | DIRECT | 125 | `aecbb10408224b29…` |
-| ChinaMaxNoIP_Domain | DIRECT | 110,955 | `31f9236efc880002…` |
+| ChinaMaxNoIP | DIRECT | 125 | `00442c445e15af33…` |
+| ChinaMaxNoIP_Domain | DIRECT | 111,198 | `0d989457ed256a6f…` |
 
 ## Fail-closed behavior
 
