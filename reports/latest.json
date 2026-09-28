@@ -45,7 +45,7 @@
     "suffix:www.pxcc.com"
   ],
   "errors": [],
-  "generated_at": "2026-09-27T09:21:18+00:00",
+  "generated_at": "2026-09-28T09:55:00+00:00",
   "new_conflicts": [],
   "source_count": 27,
   "sources": [
@@ -244,7 +244,7 @@
       "name": "GlobalMedia",
       "output": "rules/blackmatrix7/GlobalMedia/GlobalMedia.list",
       "policy": "PROXY",
-      "sha256": "041c6235b0f3d3d6629a11ef1b4279bdc3644137ab1ee5b107e36579aaaa2bc4",
+      "sha256": "b14d04fd1badc13830dfb01cc6f8df27f4b750a054c098af7246d612c2996ed9",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia.list"
     },
     {
@@ -257,21 +257,21 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia_Domain.list"
     },
     {
-      "count": 131,
+      "count": 134,
       "format": "rule_set",
       "name": "Proxy",
       "output": "rules/blackmatrix7/Proxy/Proxy.list",
       "policy": "PROXY",
-      "sha256": "33a6361c81768e13f64eba19d4e291804c92767f407aa2ec94014b08ad234f24",
+      "sha256": "487f649b68d6e1676e8c6626c2dbbc2f65d1ec6926d7b3e3f5044e56cb0f887a",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy.list"
     },
     {
-      "count": 6795,
+      "count": 6798,
       "format": "domain_set",
       "name": "Proxy_Domain",
       "output": "rules/blackmatrix7/Proxy/Proxy_Domain.list",
       "policy": "PROXY",
-      "sha256": "93379180bd6b975d0b79685f99e918b9edae03307d3df40a308e119bbb9fa683",
+      "sha256": "0f969df4c8fc9bafc90282e076fee39ec29e9d165dd29f47243bb0f6819f1c8b",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy_Domain.list"
     },
     {
@@ -280,20 +280,20 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "00442c445e15af33d82bf8b2608f4b82f4299183de6888cc24c252ab582b5c52",
+      "sha256": "1ca8d5f1bae348bd2f9da1855157f1acfe3dacfdefaa779f8dcf7a43245d156d",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     {
-      "count": 111198,
+      "count": 111148,
       "format": "domain_set",
       "name": "ChinaMaxNoIP_Domain",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
       "policy": "DIRECT",
-      "sha256": "0d989457ed256a6f5f3b45001a0578730edcd6302eadd4039bafeb5e0aa1a257",
+      "sha256": "01b765486374676bcbe5138424b06a043675ff5ba0cd4d153590528fac9e5827",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
     }
   ],
   "status": "PASS",
-  "total_rules": 123868,
+  "total_rules": 123824,
   "warnings": []
 }
