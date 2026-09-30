@@ -45,7 +45,7 @@
     "suffix:www.pxcc.com"
   ],
   "errors": [],
-  "generated_at": "2026-09-29T09:56:10+00:00",
+  "generated_at": "2026-09-30T09:48:17+00:00",
   "new_conflicts": [],
   "source_count": 27,
   "sources": [
@@ -280,7 +280,7 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "1ca8d5f1bae348bd2f9da1855157f1acfe3dacfdefaa779f8dcf7a43245d156d",
+      "sha256": "38e68cac7a76545121871296058357edfde7128e335888656d177695cdc9b918",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     {
