@@ -1,6 +1,6 @@
 # Shadowrocket Safe Rules — PASS
 
-- Time (UTC): `2026-10-06T10:28:03+00:00`
+- Time (UTC): `2026-10-07T10:22:23+00:00`
 - Sources checked: **27**
 - Total active rules: **123,830**
 - New DIRECT/PROXY exact conflicts: **0**
