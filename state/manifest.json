@@ -1,5 +1,5 @@
 {
-  "approved_at": "2026-10-11T10:07:01+00:00",
+  "approved_at": "2026-10-12T11:00:55+00:00",
   "conflicts": [
     "suffix:265.com",
     "suffix:2mdn-cn.net",
@@ -70,7 +70,7 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "d820999a0ab132f931056d1539e0c38f2ea3532778ffd4863eb0d8d62b6aedb1",
+      "sha256": "f7ba4bf8ed68f577c288f23c03f3f9fb89de20fd91ff11d372d12fe66b6b2b3d",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     "ChinaMaxNoIP_Domain": {
@@ -133,7 +133,7 @@
       "name": "GlobalMedia",
       "output": "rules/blackmatrix7/GlobalMedia/GlobalMedia.list",
       "policy": "PROXY",
-      "sha256": "041c6235b0f3d3d6629a11ef1b4279bdc3644137ab1ee5b107e36579aaaa2bc4",
+      "sha256": "b14d04fd1badc13830dfb01cc6f8df27f4b750a054c098af7246d612c2996ed9",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GlobalMedia/GlobalMedia.list"
     },
     "GlobalMedia_Domain": {
