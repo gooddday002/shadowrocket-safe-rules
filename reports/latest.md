@@ -1,8 +1,8 @@
 # Shadowrocket Safe Rules — PASS
 
-- Time (UTC): `2026-10-13T10:44:32+00:00`
+- Time (UTC): `2026-10-14T08:49:09+00:00`
 - Sources checked: **27**
-- Total active rules: **124,232**
+- Total active rules: **123,459**
 - New DIRECT/PROXY exact conflicts: **0**
 - Existing exact conflicts: **43**
 
@@ -35,8 +35,8 @@
 | GlobalMedia_Domain | PROXY | 1,311 | `c3f867d4a594ee4e…` |
 | Proxy | PROXY | 134 | `487f649b68d6e167…` |
 | Proxy_Domain | PROXY | 6,836 | `cd54d5fd8e17e1ae…` |
-| ChinaMaxNoIP | DIRECT | 125 | `f7ba4bf8ed68f577…` |
-| ChinaMaxNoIP_Domain | DIRECT | 111,518 | `4d704c8746d18c30…` |
+| ChinaMaxNoIP | DIRECT | 125 | `6864044b743e88e9…` |
+| ChinaMaxNoIP_Domain | DIRECT | 110,745 | `6dd1d4e4e3022f83…` |
 
 ## Fail-closed behavior
 
