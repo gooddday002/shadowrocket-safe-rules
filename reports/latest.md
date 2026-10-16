@@ -1,8 +1,8 @@
 # Shadowrocket Safe Rules — PASS
 
-- Time (UTC): `2026-10-15T08:24:36+00:00`
+- Time (UTC): `2026-10-16T08:17:13+00:00`
 - Sources checked: **27**
-- Total active rules: **123,459**
+- Total active rules: **123,175**
 - New DIRECT/PROXY exact conflicts: **0**
 - Existing exact conflicts: **43**
 
@@ -26,7 +26,7 @@
 | Twitter | PROXY | 33 | `371a1ead914bfa4f…` |
 | Facebook | PROXY | 570 | `02969a9cf7cf0ec1…` |
 | Instagram | PROXY | 4 | `0d97aa6e4a5a0993…` |
-| TikTok | PROXY | 32 | `672a4bf5b8bfbc80…` |
+| TikTok | PROXY | 35 | `fad250c046702565…` |
 | Netflix | PROXY | 1,157 | `6c0043676e2a34c8…` |
 | Disney | PROXY | 173 | `851646ffda40afd7…` |
 | HBO | PROXY | 49 | `c6482a681cda4a61…` |
@@ -35,8 +35,8 @@
 | GlobalMedia_Domain | PROXY | 1,311 | `c3f867d4a594ee4e…` |
 | Proxy | PROXY | 134 | `487f649b68d6e167…` |
 | Proxy_Domain | PROXY | 6,836 | `cd54d5fd8e17e1ae…` |
-| ChinaMaxNoIP | DIRECT | 125 | `6864044b743e88e9…` |
-| ChinaMaxNoIP_Domain | DIRECT | 110,745 | `6dd1d4e4e3022f83…` |
+| ChinaMaxNoIP | DIRECT | 125 | `a9b96735c59f0720…` |
+| ChinaMaxNoIP_Domain | DIRECT | 110,458 | `f75c4d8016383c37…` |
 
 ## Fail-closed behavior
 

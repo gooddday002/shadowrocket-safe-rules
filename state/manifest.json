@@ -1,5 +1,5 @@
 {
-  "approved_at": "2026-10-15T08:24:36+00:00",
+  "approved_at": "2026-10-16T08:17:13+00:00",
   "conflicts": [
     "suffix:265.com",
     "suffix:2mdn-cn.net",
@@ -70,16 +70,16 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "6864044b743e88e9a00cb3fe819b27daa071db3cabc800789ae0bafa774c8eaf",
+      "sha256": "a9b96735c59f0720562fe7afbc4d105eb3ccb510e464a7f450dd89ee29683de4",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     "ChinaMaxNoIP_Domain": {
-      "count": 110745,
+      "count": 110458,
       "format": "domain_set",
       "name": "ChinaMaxNoIP_Domain",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
       "policy": "DIRECT",
-      "sha256": "6dd1d4e4e3022f8336c46d81e95a45ace58ba0e53a21a071b9e69317ac23bca6",
+      "sha256": "f75c4d8016383c377e810e41b7009891b423917819e7d764650a146a06af983d",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
     },
     "Claude": {
@@ -245,12 +245,12 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Telegram/Telegram.list"
     },
     "TikTok": {
-      "count": 32,
+      "count": 35,
       "format": "rule_set",
       "name": "TikTok",
       "output": "rules/blackmatrix7/TikTok/TikTok.list",
       "policy": "PROXY",
-      "sha256": "672a4bf5b8bfbc800a57ca76ca1014ab2dd993ce1debad240e7be92239e07338",
+      "sha256": "fad250c0467025653f3a045a221fa610f7042359d9465131de20f02d0eafc756",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list"
     },
     "Twitter": {
@@ -290,6 +290,6 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/iCloudPrivateRelay/iCloudPrivateRelay.list"
     }
   },
-  "total_rules": 123459,
+  "total_rules": 123175,
   "version": 1
 }
