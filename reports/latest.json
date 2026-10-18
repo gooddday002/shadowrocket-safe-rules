@@ -45,7 +45,7 @@
     "suffix:www.pxcc.com"
   ],
   "errors": [],
-  "generated_at": "2026-10-17T07:53:11+00:00",
+  "generated_at": "2026-10-18T08:08:15+00:00",
   "new_conflicts": [],
   "source_count": 27,
   "sources": [
@@ -266,12 +266,12 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy.list"
     },
     {
-      "count": 6836,
+      "count": 6839,
       "format": "domain_set",
       "name": "Proxy_Domain",
       "output": "rules/blackmatrix7/Proxy/Proxy_Domain.list",
       "policy": "PROXY",
-      "sha256": "cd54d5fd8e17e1ae6ee20f7385db4a175bbd83e91061c506804bbec7a17eaca1",
+      "sha256": "88808a11f955614595c11d4655569d3fd4e8a1b5be02d7876880a7baab4bdaba",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Proxy/Proxy_Domain.list"
     },
     {
@@ -280,20 +280,20 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "a9b96735c59f0720562fe7afbc4d105eb3ccb510e464a7f450dd89ee29683de4",
+      "sha256": "fb5cbf74dcf05a41f8b4056230c3238de8f5c83369d8115b1f8babe6cda578e2",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     {
-      "count": 110458,
+      "count": 110371,
       "format": "domain_set",
       "name": "ChinaMaxNoIP_Domain",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
       "policy": "DIRECT",
-      "sha256": "f75c4d8016383c377e810e41b7009891b423917819e7d764650a146a06af983d",
+      "sha256": "e0bfeeef6faafb9c133a3100e9ba2beec14523db15638390dcd2f590ef1d39a2",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
     }
   ],
   "status": "PASS",
-  "total_rules": 123175,
+  "total_rules": 123091,
   "warnings": []
 }
