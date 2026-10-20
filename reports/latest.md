@@ -1,8 +1,8 @@
 # Shadowrocket Safe Rules — PASS
 
-- Time (UTC): `2026-10-19T09:01:43+00:00`
+- Time (UTC): `2026-10-20T08:39:45+00:00`
 - Sources checked: **27**
-- Total active rules: **123,091**
+- Total active rules: **123,093**
 - New DIRECT/PROXY exact conflicts: **0**
 - Existing exact conflicts: **43**
 
@@ -10,7 +10,7 @@
 
 | Source | Policy | Rules | SHA-256 |
 |---|---:|---:|---|
-| Lan | DIRECT | 140 | `1287e092eb99dd9d…` |
+| Lan | DIRECT | 142 | `f8447af8ff4779fd…` |
 | WeChat | DIRECT | 33 | `0f4c3c2d94ca45e4…` |
 | MeiTuan | DIRECT | 7 | `6abcbfd2fcf6c66b…` |
 | AliPay | DIRECT | 21 | `7b220f98eb4b21f7…` |
@@ -35,7 +35,7 @@
 | GlobalMedia_Domain | PROXY | 1,311 | `c3f867d4a594ee4e…` |
 | Proxy | PROXY | 134 | `487f649b68d6e167…` |
 | Proxy_Domain | PROXY | 6,839 | `88808a11f9556145…` |
-| ChinaMaxNoIP | DIRECT | 125 | `fb5cbf74dcf05a41…` |
+| ChinaMaxNoIP | DIRECT | 125 | `9c30b8fe26695d80…` |
 | ChinaMaxNoIP_Domain | DIRECT | 110,371 | `e0bfeeef6faafb9c…` |
 
 ## Fail-closed behavior

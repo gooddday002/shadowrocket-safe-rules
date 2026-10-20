@@ -45,17 +45,17 @@
     "suffix:www.pxcc.com"
   ],
   "errors": [],
-  "generated_at": "2026-10-19T09:01:43+00:00",
+  "generated_at": "2026-10-20T08:39:45+00:00",
   "new_conflicts": [],
   "source_count": 27,
   "sources": [
     {
-      "count": 140,
+      "count": 142,
       "format": "rule_set",
       "name": "Lan",
       "output": "rules/blackmatrix7/Lan/Lan.list",
       "policy": "DIRECT",
-      "sha256": "1287e092eb99dd9dbfcb480b0af712d9c84efb4ed62dbeb8e477c59fb265c386",
+      "sha256": "f8447af8ff4779fdfa77441a1d14796ea2fa11ab6d13dabe8721e2e8709e2ae0",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list"
     },
     {
@@ -280,7 +280,7 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "fb5cbf74dcf05a41f8b4056230c3238de8f5c83369d8115b1f8babe6cda578e2",
+      "sha256": "9c30b8fe26695d80fefa94335f49597723c4cea70ccfbbe0fb45dff98a9343fd",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     {
@@ -294,6 +294,6 @@
     }
   ],
   "status": "PASS",
-  "total_rules": 123091,
+  "total_rules": 123093,
   "warnings": []
 }
