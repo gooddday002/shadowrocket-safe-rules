@@ -1,5 +1,5 @@
 {
-  "approved_at": "2026-10-23T08:38:45+00:00",
+  "approved_at": "2026-10-24T08:14:05+00:00",
   "conflicts": [
     "suffix:265.com",
     "suffix:2mdn-cn.net",
@@ -70,16 +70,16 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "9c30b8fe26695d80fefa94335f49597723c4cea70ccfbbe0fb45dff98a9343fd",
+      "sha256": "9d0a42e989994522a67a62e4037f7a08c2680108290e680a413576b782c7c0eb",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     "ChinaMaxNoIP_Domain": {
-      "count": 110371,
+      "count": 110373,
       "format": "domain_set",
       "name": "ChinaMaxNoIP_Domain",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
       "policy": "DIRECT",
-      "sha256": "e0bfeeef6faafb9c133a3100e9ba2beec14523db15638390dcd2f590ef1d39a2",
+      "sha256": "b04dcbe5872facc6ff0373f06207998397674682491b0e7fceec22d7be67f5a4",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
     },
     "Claude": {
@@ -290,6 +290,6 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/iCloudPrivateRelay/iCloudPrivateRelay.list"
     }
   },
-  "total_rules": 123093,
+  "total_rules": 123095,
   "version": 1
 }
