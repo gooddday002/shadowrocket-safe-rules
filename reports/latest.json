@@ -45,7 +45,7 @@
     "suffix:www.pxcc.com"
   ],
   "errors": [],
-  "generated_at": "2026-10-27T09:07:04+00:00",
+  "generated_at": "2026-10-28T09:47:58+00:00",
   "new_conflicts": [],
   "source_count": 27,
   "sources": [
@@ -280,20 +280,20 @@
       "name": "ChinaMaxNoIP",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP.list",
       "policy": "DIRECT",
-      "sha256": "ada26fd2f6743e0d47f0e8d8e0f0fbbe6fe4423e10f72ab774450578f0747b39",
+      "sha256": "744a4077e9216911c8885acab9eeeeb2bec585705bec0c3e50854cb185891f95",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP.list"
     },
     {
-      "count": 110102,
+      "count": 110104,
       "format": "domain_set",
       "name": "ChinaMaxNoIP_Domain",
       "output": "rules/blackmatrix7/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list",
       "policy": "DIRECT",
-      "sha256": "4c15215a9228c2fcda25375db0c2d3cb3f9d5ecf05e767c7d370acc0f5721c7b",
+      "sha256": "913ee99a4818d74c51bccd7e1022a1d631373623db3120c003b8630d470ce6db",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaMaxNoIP/ChinaMaxNoIP_Domain.list"
     }
   ],
   "status": "PASS",
-  "total_rules": 122844,
+  "total_rules": 122846,
   "warnings": []
 }
